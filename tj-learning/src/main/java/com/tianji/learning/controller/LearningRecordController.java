@@ -8,6 +8,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -35,7 +36,7 @@ public class LearningRecordController {
 
     @ApiOperation("提交学习记录")
     @PostMapping()
-    public void addLearningRecord(@RequestBody LearningRecordFormDTO formDTO){
+    public void addLearningRecord(@RequestBody @Validated LearningRecordFormDTO formDTO){
         recordService.addLearningRecord(formDTO);
     }
 }

@@ -14,6 +14,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -77,6 +78,7 @@ public class LearningLessonController {
         Long user = UserContext.getUser();
         lessonService.deleteCourseFromLesson(user, couseId);
     }
+
     @ApiOperation("用户是否拥有该课程并返回学习进度")
     @GetMapping("/{courseId}")
     public LessonStatusVO queryLessonByCourseId(@ApiParam(value = "课程id", example = "1") @PathVariable("courseId") Long couseId){
@@ -97,7 +99,7 @@ public class LearningLessonController {
 
     @ApiOperation("创建学习计划")
     @PostMapping("/plans")
-    public void createLearningPlans(@Valid @RequestBody LearningPlanDTO planDTO){
+    public void createLearningPlans(@RequestBody @Validated LearningPlanDTO planDTO){
         lessonService.createLearningPlan(planDTO.getCourseId(), planDTO.getFreq());
     }
 

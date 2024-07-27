@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.tianji.api.client.course.CatalogueClient;
 import com.tianji.api.client.course.CourseClient;
+import com.tianji.api.client.learning.LearningClient;
 import com.tianji.api.dto.course.CataSimpleInfoDTO;
 import com.tianji.api.dto.course.CourseFullInfoDTO;
 import com.tianji.api.dto.course.CourseSimpleInfoDTO;
@@ -268,7 +269,7 @@ public class LearningLessonServiceImpl extends ServiceImpl<LearningLessonMapper,
         LearningPlanPageVO planPageVO = new LearningPlanPageVO();
         //1.获取用户
         Long user = UserContext.getUser();
-        //2.todo 积分奖励
+        //2.TODO 积分奖励
         planPageVO.setWeekPoints(0);
         //3.查询课程表信息
         //3.1获取本周内时间
