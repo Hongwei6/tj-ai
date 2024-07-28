@@ -5,7 +5,10 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.tianji.api.cache.CategoryCache;
+import com.tianji.api.client.course.CatalogueClient;
 import com.tianji.api.client.remark.RemarkClient;
+import com.tianji.api.client.search.SearchClient;
 import com.tianji.api.client.user.UserClient;
 import com.tianji.api.dto.user.UserDTO;
 import com.tianji.common.domain.dto.PageDTO;
@@ -51,6 +54,10 @@ public class InteractionReplyServiceImpl extends ServiceImpl<InteractionReplyMap
     private final InteractionQuestionMapper questionMapper;
     private final UserClient userClient;
     private final RemarkClient remarkClient;
+
+//    private final SearchClient searchClient;
+//    private final CatalogueClient catalogueClient;
+//    private final CategoryCache categoryCache;
 
     @Override
     public void addReplyOrAnswer(ReplyDTO dto) {

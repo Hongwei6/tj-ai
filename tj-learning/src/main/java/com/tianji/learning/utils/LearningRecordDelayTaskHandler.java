@@ -40,8 +40,10 @@ public class LearningRecordDelayTaskHandler {
     private final ILearningLessonService lessonService;
     private static volatile boolean begin = true;
 
-    //创建线程池
-    ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(12, 12, 60, TimeUnit.SECONDS, new LinkedBlockingDeque<>(10));
+    // 创建线程池
+    static ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(
+            16, 5, 60,
+            TimeUnit.SECONDS, new LinkedBlockingDeque<>(10));
 
 
     //PostConstruct：在此类初始化后，并在属性被输入之后执行
@@ -73,9 +75,7 @@ public class LearningRecordDelayTaskHandler {
                         LearningRecord record = readRecordCache(data.getLessonId(), data.getSectionId());
                         log.info("从延迟队列获取到学习记录数据:{}", data);
                         log.info("从Redis缓存中获取到学习记录数据:{}", record);
-                        if (record == null) {
-                            return;
-                        }
+                        if (record == null) return;
                         // 3.比较数据
                         if(!Objects.equals(data.getMoment(), record.getMoment())){
                             // 4.如果不一致，播放进度在变化，无需持久化

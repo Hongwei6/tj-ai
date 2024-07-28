@@ -4,12 +4,10 @@ import com.baomidou.mybatisplus.core.metadata.TableFieldInfo;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.tianji.api.cache.CategoryCache;
 import com.tianji.api.client.course.CatalogueClient;
-import com.tianji.api.client.course.CategoryClient;
 import com.tianji.api.client.course.CourseClient;
 import com.tianji.api.client.search.SearchClient;
 import com.tianji.api.client.user.UserClient;
 import com.tianji.api.dto.course.CataSimpleInfoDTO;
-import com.tianji.api.dto.course.CategoryBasicDTO;
 import com.tianji.api.dto.course.CourseFullInfoDTO;
 import com.tianji.api.dto.course.CourseSimpleInfoDTO;
 import com.tianji.api.dto.user.UserDTO;
@@ -27,6 +25,7 @@ import com.tianji.learning.domain.vo.QuestionAdminVO;
 import com.tianji.learning.domain.vo.QuestionVO;
 import com.tianji.learning.enums.QuestionStatus;
 import com.tianji.learning.mapper.InteractionQuestionMapper;
+import com.tianji.learning.mapper.InteractionReplyMapper;
 import com.tianji.learning.service.IInteractionQuestionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.tianji.learning.service.IInteractionReplyService;
@@ -35,10 +34,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -80,7 +76,9 @@ public class InteractionQuestionServiceImpl extends ServiceImpl<InteractionQuest
 
     @Override
     public void updateQuestion(Long id, QuestionFormDTO questionDTO) {
-        if(StringUtils.isBlank(questionDTO.getTitle()) || StringUtils.isBlank(questionDTO.getDescription()) || questionDTO.getAnonymity()==null){
+        if(StringUtils.isBlank(questionDTO.getTitle())
+                || StringUtils.isBlank(questionDTO.getDescription())
+                || questionDTO.getAnonymity()==null){
             throw new BadRequestException("请求参数不能为空");
         }
         InteractionQuestion question = getById(id);
@@ -188,6 +186,8 @@ public class InteractionQuestionServiceImpl extends ServiceImpl<InteractionQuest
         question.setHidden(hidden);
         updateById(question);
     }
+
+    private final InteractionReplyMapper replyMapper;
 
     @Override
     public PageDTO<QuestionVO> queryQuestionPage(QuestionPageQuery query) {
