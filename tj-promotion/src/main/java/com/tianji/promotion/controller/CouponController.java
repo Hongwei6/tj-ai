@@ -49,11 +49,13 @@ public class CouponController {
     public void deleteById(@ApiParam("优惠券id") @PathVariable("id") Long id){
         couponService.deleteById(id);
     }
+
     @ApiOperation("查询优惠券接口")
     @GetMapping("{id}")
     public CouponDetailVO queryById(@ApiParam("优惠券id") @PathVariable("id") Long id){
         return couponService.queryById(id);
     }
+
     @ApiOperation("分页查询优惠券列表接口-管理端")
     @GetMapping("/page")
     public PageDTO<CouponPageVO> queryCouponByPage(CouponQuery query){
@@ -70,5 +72,11 @@ public class CouponController {
     @GetMapping("/list")
     public List<CouponVO> queryIssuingCoupons(){
         return couponService.queryIssuingCoupons();
+    }
+
+    @ApiOperation("停发优惠券")
+    @PutMapping("/{id}/pause")
+    public void pauseIssue(@ApiParam("优惠券id") @PathVariable("id") long id) {
+        couponService.pauseIssue(id);
     }
 }

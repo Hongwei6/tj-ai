@@ -318,4 +318,9 @@ public class CouponServiceImpl extends ServiceImpl<CouponMapper, Coupon> impleme
 
         return vos;
     }
+
+    @Override
+    public void pauseIssue(long id) {
+        lambdaUpdate().eq(Coupon::getId, id).set(Coupon::getStatus, CouponStatus.PAUSE).update();
+    }
 }
