@@ -3,6 +3,7 @@ package com.tianji.learning.service.impl;
 import com.tianji.common.autoconfigure.mq.RabbitMqHelper;
 import com.tianji.common.constants.MqConstants;
 import com.tianji.common.exceptions.BizIllegalException;
+import com.tianji.common.utils.DateUtils;
 import com.tianji.common.utils.UserContext;
 import com.tianji.learning.constants.RedisConstants;
 import com.tianji.learning.domain.vo.SignResultVO;
@@ -72,33 +73,32 @@ public class SignRecordServiceImpl implements ISignRecordService {
         String format = now.format(DateTimeFormatter.ofPattern(":yyyyMM"));
         String key = RedisConstants.SIGN_RECORD_KEY_PREFIX + user + format;
         //3.获取本月签到详情
-        Deque<Integer> list = getDaysOfMonth(now.getDayOfMonth(), key);
+        Deque<Integer> list = getDaysOfMonth(key, now.getDayOfMonth());
         return list;
     }
 
     /**
      * 获取本月签到详情
-     * @param dayOfMonth 非偏移量，为当日到月初的总天数
+     * @param len 非偏移量，为当日到月初的总天数
      * @param key 用户&时间键，格式sign:uid:2:202311
      * @return 本月签到详情List，为当日到月初的总天数，非月总数
      */
-    private Deque<Integer> getDaysOfMonth(int dayOfMonth, String key) {
+    private Deque<Integer> getDaysOfMonth(String key, int len) {
         //1.获取bitMap记录值
         List<Long> list = redisTemplate.opsForValue().bitField(key,
-                BitFieldSubCommands.create().get(BitFieldSubCommands.BitFieldType.unsigned(dayOfMonth)).valueAt(0));
-        Long bitMapNum = list.get(0);
-        log.info("用户本月BitMap签到记录：{}", bitMapNum);
+                BitFieldSubCommands.create().get(BitFieldSubCommands.BitFieldType.unsigned(len)).valueAt(0));
+        Long num = list.get(0);
 
         //2.Long值转List<Integer>
         //2.1转换为二进制字符串(toBinaryString会忽略前面的0)
-        String s = Long.toBinaryString(bitMapNum);
+        String s = Long.toBinaryString(num);
         //2.2List添加数据
         Deque<Integer> arr = new LinkedList<>();
         for (char c : s.toCharArray()) {
             arr.addLast(c == '1'?1:0);
         }
         //2.3如果转换后的长度小于当前天数，说明前面是零，补0即可
-        for(int i=0; i<dayOfMonth - s.length(); i++){
+        for(int i=0; i<len - s.length(); i++){
             arr.addFirst(0);
         }
         return arr;

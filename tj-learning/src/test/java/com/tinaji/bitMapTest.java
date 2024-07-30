@@ -62,4 +62,22 @@ public class bitMapTest {
         }
         System.out.println(arr);
     }
+//
+//    @Test
+//    public void test3(){
+//        // 假设 redisTemplate 是通过 Spring RedisTemplate 配置的
+//        String key = "user:sign_ins:2024:07";
+//        int len = 8; // 假设每个 Long 使用了前面的 8 位来存储签到情况
+//
+//// 获取本月从第一天开始，到今天为止的所有签到记录
+//        List<Long> result = redisTemplate.opsForValue().bitField(key,
+//                BitFieldSubCommands.create().get(BitFieldSubCommands.BitFieldType.unsigned(len)).valueAt(0));
+//
+//// 输出每个 Long 的签到情况（示例中只显示前面的 8 位）
+//        for (int i = 0; i < result.size(); i++) {
+//            Long bits = result.get(i);
+//            System.out.println("第 " + (i + 1) + " 天的签到情况：" + Long.toBinaryString(bits));
+//        }
+//
+//    }
 }

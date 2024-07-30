@@ -10,17 +10,12 @@ import com.xxl.job.core.handler.annotation.XxlJob;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import static com.tianji.learning.constants.LearningConstants.POINTS_BOARD_TABLE_PREFIX;
-import static com.tianji.learning.constants.RedisConstants.POINTS_BORAD_KEY_PREFIX;
 
 @Component
 @RequiredArgsConstructor

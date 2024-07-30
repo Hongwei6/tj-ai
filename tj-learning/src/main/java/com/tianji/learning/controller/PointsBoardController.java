@@ -47,10 +47,8 @@ public class PointsBoardController {
     }
 
     @GetMapping
-    @ApiOperation("分页查询指定赛季的积分排行榜")
+    @ApiOperation("查询赛季积分榜")
     public PointsBoardVO queryPointsBoardBySeason(PointsBoardQuery query){
         return pointsBoardService.queryPointsBoardBySeason(query);
     }
-
-
 }

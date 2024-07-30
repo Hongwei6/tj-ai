@@ -100,14 +100,15 @@ public class PointsBoardServiceImpl extends ServiceImpl<PointsBoardMapper, Point
      * @return 用户积分和排名信息列表
      */
     private List<PointsBoard> queryHistoryPoints(Long seasonId, @Min(value = 1, message = "页码不能小于1") Integer pageNo, @Min(value = 1, message = "每页查询数量不能小于1") Integer pageSize) {
-        if(seasonId == null){
+        if (seasonId == null) {
             throw new BadRequestException("查询历史赛季排行榜失败，赛季id不能为空");
         }
-        PointsBoard pointsBoard = new PointsBoard();
-        lambdaQuery()
+        int offset = (pageNo - 1) * pageSize;
+        List<PointsBoard> list = lambdaQuery()
                 .eq(PointsBoard::getSeason, seasonId)
-                .list();
-        return  null;
+                .orderByAsc(PointsBoard::getPoints)
+                .last("LIMIT " + pageSize + " OFFSET " + offset).list();
+        return list;
     }
 
     /**
