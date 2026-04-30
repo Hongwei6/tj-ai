@@ -4,7 +4,7 @@ server:
     uri-encoding: UTF-8   #服务编码
 spring:
   profiles:
-    active: dev
+    active: local
   application:
     name: auth-service
   cloud:
@@ -43,5 +43,7 @@ tj:
       includeLoginPaths:
         - /menus/me
         - /accounts/logout
+      excludeLoginPaths:
+        - /jwks
   jdbc:
     database: tj_auth

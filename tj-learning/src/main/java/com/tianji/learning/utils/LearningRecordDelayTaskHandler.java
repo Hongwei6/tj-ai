@@ -42,7 +42,7 @@ public class LearningRecordDelayTaskHandler {
 
     // 创建线程池
     static ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(
-            16, 5, 60,
+            5, 16, 60,
             TimeUnit.SECONDS, new LinkedBlockingDeque<>(10));
 
 

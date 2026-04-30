@@ -1,0 +1,605 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777442453336,
+  "projectRoot": "D:\\workspace\\learn\\tj-exam",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Java",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pom.xml"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "maven",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "tj-aopdemo": {
+      "path": "tj-aopdemo",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453308,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-api": {
+      "path": "tj-api",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453309,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-auth": {
+      "path": "tj-auth",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453309,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-common": {
+      "path": "tj-common",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453310,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-course": {
+      "path": "tj-course",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453311,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-data": {
+      "path": "tj-data",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453312,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-exam": {
+      "path": "tj-exam",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453312,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-gateway": {
+      "path": "tj-gateway",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453313,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-learning": {
+      "path": "tj-learning",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453313,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-media": {
+      "path": "tj-media",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453313,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-message": {
+      "path": "tj-message",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453314,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-pay": {
+      "path": "tj-pay",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453314,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-promotion": {
+      "path": "tj-promotion",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453314,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-remark": {
+      "path": "tj-remark",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453314,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-search": {
+      "path": "tj-search",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453315,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-trade": {
+      "path": "tj-trade",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453315,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-user": {
+      "path": "tj-user",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453315,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-xxljobDemo": {
+      "path": "tj-xxljobDemo",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777442453315,
+      "keyFiles": [
+        "pom.xml"
+      ]
+    },
+    "tj-api\\src": {
+      "path": "tj-api\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453316,
+      "keyFiles": []
+    },
+    "tj-common\\src": {
+      "path": "tj-common\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453317,
+      "keyFiles": []
+    },
+    "tj-course\\src": {
+      "path": "tj-course\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453317,
+      "keyFiles": []
+    },
+    "tj-data\\src": {
+      "path": "tj-data\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453318,
+      "keyFiles": []
+    },
+    "tj-exam\\src": {
+      "path": "tj-exam\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453318,
+      "keyFiles": []
+    },
+    "tj-gateway\\src": {
+      "path": "tj-gateway\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453318,
+      "keyFiles": []
+    },
+    "tj-learning\\src": {
+      "path": "tj-learning\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453319,
+      "keyFiles": []
+    },
+    "tj-media\\src": {
+      "path": "tj-media\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453319,
+      "keyFiles": []
+    },
+    "tj-promotion\\src": {
+      "path": "tj-promotion\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453319,
+      "keyFiles": []
+    },
+    "tj-remark\\src": {
+      "path": "tj-remark\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453320,
+      "keyFiles": []
+    },
+    "tj-search\\src": {
+      "path": "tj-search\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453320,
+      "keyFiles": []
+    },
+    "tj-trade\\src": {
+      "path": "tj-trade\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453320,
+      "keyFiles": []
+    },
+    "tj-user\\src": {
+      "path": "tj-user\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453320,
+      "keyFiles": []
+    },
+    "tj-xxljobDemo\\src": {
+      "path": "tj-xxljobDemo\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777442453320,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 12,
+      "lastAccessed": 1777451272024,
+      "type": "directory"
+    },
+    {
+      "path": "tj-auth",
+      "accessCount": 11,
+      "lastAccessed": 1777515460322,
+      "type": "directory"
+    },
+    {
+      "path": "tj-gateway\\src\\main\\java\\com\\tianji\\gateway\\config\\AuthProperties.java",
+      "accessCount": 6,
+      "lastAccessed": 1777515389232,
+      "type": "file"
+    },
+    {
+      "path": "服务器运维手册.md",
+      "accessCount": 4,
+      "lastAccessed": 1777515016828,
+      "type": "file"
+    },
+    {
+      "path": "tj-gateway\\src\\main\\resources\\bootstrap-local.yml",
+      "accessCount": 4,
+      "lastAccessed": 1777515566258,
+      "type": "file"
+    },
+    {
+      "path": "pom.xml",
+      "accessCount": 3,
+      "lastAccessed": 1777447527182,
+      "type": "file"
+    },
+    {
+      "path": "tj-course\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 2,
+      "lastAccessed": 1777445980540,
+      "type": "file"
+    },
+    {
+      "path": "tj-gateway\\src\\main\\resources\\bootstrap-dev.yml",
+      "accessCount": 2,
+      "lastAccessed": 1777446011110,
+      "type": "file"
+    },
+    {
+      "path": "tj-learning\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 2,
+      "lastAccessed": 1777447846742,
+      "type": "file"
+    },
+    {
+      "path": "tj-learning\\src\\main\\resources\\bootstrap-local.yml",
+      "accessCount": 2,
+      "lastAccessed": 1777447861385,
+      "type": "file"
+    },
+    {
+      "path": "tj-learning\\src\\main\\java\\com\\tianji\\learning\\utils\\LearningRecordDelayTaskHandler.java",
+      "accessCount": 2,
+      "lastAccessed": 1777448047177,
+      "type": "file"
+    },
+    {
+      "path": "tj-learning\\src",
+      "accessCount": 2,
+      "lastAccessed": 1777451261273,
+      "type": "directory"
+    },
+    {
+      "path": "tj-auth\\tj-auth-gateway-sdk\\src\\main\\java\\com\\tianji\\authsdk\\gateway\\util\\JwtSignerHolder.java",
+      "accessCount": 2,
+      "lastAccessed": 1777515432719,
+      "type": "file"
+    },
+    {
+      "path": "tj-auth\\tj-auth-resource-sdk\\src\\main\\java\\com\\tianji\\authsdk\\resource\\config\\ResourceInterceptorConfiguration.java",
+      "accessCount": 2,
+      "lastAccessed": 1777515469251,
+      "type": "file"
+    },
+    {
+      "path": "tj-auth\\tj-auth-resource-sdk\\src\\main\\java\\com\\tianji\\authsdk\\resource\\config\\ResourceAuthProperties.java",
+      "accessCount": 2,
+      "lastAccessed": 1777515469302,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1777442495952,
+      "type": "file"
+    },
+    {
+      "path": "Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1777442495977,
+      "type": "file"
+    },
+    {
+      "path": "startup.sh",
+      "accessCount": 1,
+      "lastAccessed": 1777442496031,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442515418,
+      "type": "file"
+    },
+    {
+      "path": "tj-auth\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442515534,
+      "type": "file"
+    },
+    {
+      "path": "tj-gateway\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442515547,
+      "type": "file"
+    },
+    {
+      "path": "tj-api\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442515607,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\constants\\MqConstants.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442564216,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\domain\\R.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442564247,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\utils\\UserContext.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442564300,
+      "type": "file"
+    },
+    {
+      "path": "tj-gateway\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777442564360,
+      "type": "file"
+    },
+    {
+      "path": "tj-exam\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442584988,
+      "type": "file"
+    },
+    {
+      "path": "tj-learning\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442585021,
+      "type": "file"
+    },
+    {
+      "path": "tj-promotion\\pom.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777442585091,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\autoconfigure\\mybatis\\BaseMetaObjectHandler.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442606778,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\autoconfigure\\mvc\\advice\\CommonExceptionAdvice.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442606787,
+      "type": "file"
+    },
+    {
+      "path": "tj-api\\src",
+      "accessCount": 1,
+      "lastAccessed": 1777442606814,
+      "type": "directory"
+    },
+    {
+      "path": "tj-common\\src",
+      "accessCount": 1,
+      "lastAccessed": 1777442606867,
+      "type": "directory"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\constants\\Constant.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442645625,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\enums\\BaseEnum.java",
+      "accessCount": 1,
+      "lastAccessed": 1777442645684,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1777442696382,
+      "type": "file"
+    },
+    {
+      "path": "tj-promotion\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445980472,
+      "type": "file"
+    },
+    {
+      "path": "tj-exam\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445980519,
+      "type": "file"
+    },
+    {
+      "path": "tj-user\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445980601,
+      "type": "file"
+    },
+    {
+      "path": "tj-trade\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445980663,
+      "type": "file"
+    },
+    {
+      "path": "tj-search\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445996171,
+      "type": "file"
+    },
+    {
+      "path": "tj-remark\\src\\main\\resources\\bootstrap.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777445996247,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\autoconfigure\\mybatis\\MybatisConfig.java",
+      "accessCount": 1,
+      "lastAccessed": 1777446011180,
+      "type": "file"
+    },
+    {
+      "path": "tj-course\\src\\main\\resources\\bootstrap-local.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777446020662,
+      "type": "file"
+    },
+    {
+      "path": "tj-course\\src\\main\\resources\\bootstrap-dev.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777446020765,
+      "type": "file"
+    },
+    {
+      "path": "tj-search",
+      "accessCount": 1,
+      "lastAccessed": 1777446297534,
+      "type": "directory"
+    },
+    {
+      "path": "tj-search\\src\\main\\resources\\bootstrap-local.yml",
+      "accessCount": 1,
+      "lastAccessed": 1777447916474,
+      "type": "file"
+    },
+    {
+      "path": "tj-common\\src\\main\\java\\com\\tianji\\common\\autoconfigure\\redisson\\RedissonConfig.java",
+      "accessCount": 1,
+      "lastAccessed": 1777448109255,
+      "type": "file"
+    },
+    {
+      "path": "tj-trade\\src\\main\\java\\com\\tianji\\trade\\handler\\PayMessageHandler.java",
+      "accessCount": 1,
+      "lastAccessed": 1777452463482,
+      "type": "file"
+    },
+    {
+      "path": "tj-auth\\tj-auth-service\\src\\main\\java\\com\\tianji\\auth\\controller\\JwkController.java",
+      "accessCount": 1,
+      "lastAccessed": 1777453411870,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

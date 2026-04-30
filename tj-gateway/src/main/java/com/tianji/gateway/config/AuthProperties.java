@@ -12,15 +12,15 @@ import java.util.Set;
 @ConfigurationProperties(prefix = "tj.auth")
 public class AuthProperties implements InitializingBean {
 
-    private Set<String> excludePath;
+    private Set<String> excludePath = new java.util.HashSet<>();
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        // 添加默认不拦截的路径
-        excludePath.add("/error/**");
-        excludePath.add("/jwks");
-        excludePath.add("/accounts/login");
-        excludePath.add("/accounts/admin/login");
-        excludePath.add("/accounts/refresh");
+        // 添加默认不拦截的路径（格式为 METHOD:PATH 或 **:PATH）
+        excludePath.add("*:/error/**");
+        excludePath.add("GET:/jwks");
+        excludePath.add("*:/as/accounts/login");
+        excludePath.add("*:/as/accounts/admin/login");
+        excludePath.add("*:/as/accounts/refresh");
     }
 }
