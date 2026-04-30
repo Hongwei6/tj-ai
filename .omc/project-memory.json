@@ -337,6 +337,12 @@
       "type": "file"
     },
     {
+      "path": "README.md",
+      "accessCount": 3,
+      "lastAccessed": 1777519192206,
+      "type": "file"
+    },
+    {
       "path": "tj-course\\src\\main\\resources\\bootstrap.yml",
       "accessCount": 2,
       "lastAccessed": 1777445980540,
@@ -388,12 +394,6 @@
       "path": "tj-auth\\tj-auth-resource-sdk\\src\\main\\java\\com\\tianji\\authsdk\\resource\\config\\ResourceAuthProperties.java",
       "accessCount": 2,
       "lastAccessed": 1777515469302,
-      "type": "file"
-    },
-    {
-      "path": "README.md",
-      "accessCount": 1,
-      "lastAccessed": 1777442495952,
       "type": "file"
     },
     {
