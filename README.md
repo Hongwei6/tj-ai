@@ -86,4 +86,4 @@ mvn clean package -pl tj-learning -am -DskipTests
 
 ## 在线笔记
 
-https://du1in9.github.io/tj-exam/
+https://my.feishu.cn/wiki/wikcnrigEuKkRaba6YaZubSuINf

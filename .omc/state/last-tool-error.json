@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"pip install bcrypt 2>/dev/null && python3 -c \\\"\\nimport bcrypt\\nhashed = bcrypt.hashpw(b'123456', bcrypt.gensalt(rounds=10))\\nprint(hashed.decode())\\n# Also verify the existing hash\\ntry:\\...",
-  "error": "Exit code 49\nRequirement already satisfied: bcrypt in d:\\develop\\python\\lib\\site-packages (5.0.0)",
-  "timestamp": "2026-04-30T02:33:12.938Z",
+  "tool_input_preview": "{\"command\":\"ssh T480s \\\"grep -r 'accounts/login' '/home/hongwei/文档/workspace/tj-ai/tj-auth/tj-auth-service/src/main/java/' --include='*.java' -l\\\" 2>&1\",\"timeout\":10000,\"description\":\"Find login contr...",
+  "error": "Exit code 1",
+  "timestamp": "2026-05-06T07:30:02.989Z",
   "retry_count": 1
 }

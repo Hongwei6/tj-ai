@@ -2,7 +2,7 @@ export default {
   development: {
     // 开发环境接口请求
     // host: 'https://tjxt-dev.itheima.net/api',
-    host: 'http://192.168.0.54:10010',
+    host: 'http://192.168.0.51:10010',
     // 开发环境 cdn 路径
     cdn: '',
   },
