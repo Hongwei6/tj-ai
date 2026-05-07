@@ -424,6 +424,18 @@
       "accessCount": 1,
       "lastAccessed": 1778053019702,
       "type": "file"
+    },
+    {
+      "path": "tj-admin\\src\\config\\proxy.js",
+      "accessCount": 1,
+      "lastAccessed": 1778142504507,
+      "type": "file"
+    },
+    {
+      "path": "tj-admin",
+      "accessCount": 1,
+      "lastAccessed": 1778142504581,
+      "type": "directory"
     }
   ],
   "userDirectives": []
