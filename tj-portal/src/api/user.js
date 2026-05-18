@@ -33,7 +33,7 @@ request({
 // 账号注册
 export const userRegist = (params) =>
 request({
-	url: `${AUTH_API_PREFIX}/users/register`,
+	url: `${USER_API_PREFIX}/students/register`,
 	method: 'post',
 	data:params
 })
