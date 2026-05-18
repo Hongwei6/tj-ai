@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1778050030781,
+  "lastScanned": 1779087483511,
   "projectRoot": "D:\\workspace\\learn\\tj-exam",
   "techStack": {
     "languages": [
@@ -42,14 +42,14 @@
       "path": "job",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1778050030759,
+      "lastAccessed": 1779087483471,
       "keyFiles": []
     },
     "tj-admin": {
       "path": "tj-admin",
       "purpose": null,
       "fileCount": 8,
-      "lastAccessed": 1778050030760,
+      "lastAccessed": 1779087483472,
       "keyFiles": [
         "Dockerfile",
         "index.html",
@@ -62,7 +62,7 @@
       "path": "tj-aopdemo",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030761,
+      "lastAccessed": 1779087483473,
       "keyFiles": [
         "pom.xml"
       ]
@@ -71,7 +71,7 @@
       "path": "tj-api",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030761,
+      "lastAccessed": 1779087483473,
       "keyFiles": [
         "pom.xml"
       ]
@@ -80,7 +80,7 @@
       "path": "tj-auth",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030761,
+      "lastAccessed": 1779087483473,
       "keyFiles": [
         "pom.xml"
       ]
@@ -89,7 +89,7 @@
       "path": "tj-common",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030762,
+      "lastAccessed": 1779087483474,
       "keyFiles": [
         "pom.xml"
       ]
@@ -98,7 +98,7 @@
       "path": "tj-course",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030762,
+      "lastAccessed": 1779087483474,
       "keyFiles": [
         "pom.xml"
       ]
@@ -107,7 +107,7 @@
       "path": "tj-data",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030762,
+      "lastAccessed": 1779087483474,
       "keyFiles": [
         "pom.xml"
       ]
@@ -116,7 +116,7 @@
       "path": "tj-exam",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030763,
+      "lastAccessed": 1779087483474,
       "keyFiles": [
         "pom.xml"
       ]
@@ -125,7 +125,7 @@
       "path": "tj-gateway",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030763,
+      "lastAccessed": 1779087483475,
       "keyFiles": [
         "pom.xml"
       ]
@@ -134,7 +134,7 @@
       "path": "tj-learning",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030763,
+      "lastAccessed": 1779087483475,
       "keyFiles": [
         "pom.xml"
       ]
@@ -143,7 +143,7 @@
       "path": "tj-media",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030763,
+      "lastAccessed": 1779087483475,
       "keyFiles": [
         "pom.xml"
       ]
@@ -152,7 +152,7 @@
       "path": "tj-message",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030764,
+      "lastAccessed": 1779087483475,
       "keyFiles": [
         "pom.xml"
       ]
@@ -161,16 +161,29 @@
       "path": "tj-pay",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030764,
+      "lastAccessed": 1779087483476,
       "keyFiles": [
         "pom.xml"
+      ]
+    },
+    "tj-portal": {
+      "path": "tj-portal",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1779087483476,
+      "keyFiles": [
+        "Dockerfile",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "README.md"
       ]
     },
     "tj-promotion": {
       "path": "tj-promotion",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030764,
+      "lastAccessed": 1779087483476,
       "keyFiles": [
         "pom.xml"
       ]
@@ -179,7 +192,7 @@
       "path": "tj-remark",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030764,
+      "lastAccessed": 1779087483476,
       "keyFiles": [
         "pom.xml"
       ]
@@ -188,7 +201,7 @@
       "path": "tj-search",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030764,
+      "lastAccessed": 1779087483476,
       "keyFiles": [
         "pom.xml"
       ]
@@ -197,7 +210,7 @@
       "path": "tj-trade",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030765,
+      "lastAccessed": 1779087483477,
       "keyFiles": [
         "pom.xml"
       ]
@@ -206,7 +219,7 @@
       "path": "tj-user",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030765,
+      "lastAccessed": 1779087483477,
       "keyFiles": [
         "pom.xml"
       ]
@@ -215,7 +228,7 @@
       "path": "tj-xxljobDemo",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1778050030765,
+      "lastAccessed": 1779087483477,
       "keyFiles": [
         "pom.xml"
       ]
@@ -224,14 +237,14 @@
       "path": "tj-admin\\node_modules",
       "purpose": "Dependencies",
       "fileCount": 1,
-      "lastAccessed": 1778050030766,
+      "lastAccessed": 1779087483477,
       "keyFiles": []
     },
     "tj-admin\\public": {
       "path": "tj-admin\\public",
       "purpose": "Public files",
       "fileCount": 1,
-      "lastAccessed": 1778050030766,
+      "lastAccessed": 1779087483478,
       "keyFiles": [
         "favicon.ico"
       ]
@@ -240,7 +253,7 @@
       "path": "tj-admin\\src",
       "purpose": "Source code",
       "fileCount": 3,
-      "lastAccessed": 1778050030766,
+      "lastAccessed": 1779087483478,
       "keyFiles": [
         "App.vue",
         "main.js",
@@ -251,191 +264,147 @@
       "path": "tj-api\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030766,
+      "lastAccessed": 1779087483478,
       "keyFiles": []
     },
     "tj-common\\src": {
       "path": "tj-common\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030767,
+      "lastAccessed": 1779087483479,
       "keyFiles": []
     },
     "tj-course\\src": {
       "path": "tj-course\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030767,
+      "lastAccessed": 1779087483479,
       "keyFiles": []
     },
     "tj-data\\src": {
       "path": "tj-data\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030767,
+      "lastAccessed": 1779087483480,
       "keyFiles": []
     },
     "tj-exam\\src": {
       "path": "tj-exam\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030768,
+      "lastAccessed": 1779087483480,
       "keyFiles": []
     },
     "tj-gateway\\src": {
       "path": "tj-gateway\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030768,
+      "lastAccessed": 1779087483481,
       "keyFiles": []
     },
     "tj-learning\\src": {
       "path": "tj-learning\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030768,
+      "lastAccessed": 1779087483481,
       "keyFiles": []
     },
     "tj-media\\src": {
       "path": "tj-media\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030768,
+      "lastAccessed": 1779087483481,
       "keyFiles": []
+    },
+    "tj-portal\\node_modules": {
+      "path": "tj-portal\\node_modules",
+      "purpose": "Dependencies",
+      "fileCount": 1,
+      "lastAccessed": 1779087483482,
+      "keyFiles": []
+    },
+    "tj-portal\\public": {
+      "path": "tj-portal\\public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1779087483483,
+      "keyFiles": [
+        "favicon.ico"
+      ]
     },
     "tj-promotion\\src": {
       "path": "tj-promotion\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030769,
+      "lastAccessed": 1779087483483,
       "keyFiles": []
     },
     "tj-remark\\src": {
       "path": "tj-remark\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030769,
+      "lastAccessed": 1779087483483,
       "keyFiles": []
     },
     "tj-search\\src": {
       "path": "tj-search\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030769,
+      "lastAccessed": 1779087483484,
       "keyFiles": []
     },
     "tj-trade\\src": {
       "path": "tj-trade\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030770,
+      "lastAccessed": 1779087483484,
       "keyFiles": []
     },
     "tj-user\\src": {
       "path": "tj-user\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030770,
+      "lastAccessed": 1779087483485,
       "keyFiles": []
     },
     "tj-xxljobDemo\\src": {
       "path": "tj-xxljobDemo\\src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1778050030770,
+      "lastAccessed": 1779087483486,
       "keyFiles": []
     }
   },
   "hotPaths": [
     {
-      "path": "tj-auth\\tj-auth-service\\src\\main\\resources\\bootstrap-local.yml",
-      "accessCount": 3,
-      "lastAccessed": 1778051356025,
-      "type": "file"
-    },
-    {
-      "path": "C:\\Users\\Administrator\\.claude.json",
+      "path": "tj-portal\\src",
       "accessCount": 2,
-      "lastAccessed": 1778050687369,
-      "type": "file"
-    },
-    {
-      "path": "tj-gateway\\src\\main\\resources\\bootstrap-local.yml",
-      "accessCount": 2,
-      "lastAccessed": 1778051355426,
-      "type": "file"
-    },
-    {
-      "path": "",
-      "accessCount": 1,
-      "lastAccessed": 1778050124824,
+      "lastAccessed": 1779088257513,
       "type": "directory"
     },
     {
-      "path": "C:\\Users\\Administrator\\.ssh\\config",
+      "path": "tj-portal\\src\\config\\proxy.js",
       "accessCount": 1,
-      "lastAccessed": 1778050583475,
+      "lastAccessed": 1779088090802,
       "type": "file"
     },
     {
-      "path": "tj-gateway\\src\\main\\resources\\bootstrap.yml",
+      "path": "tj-portal",
       "accessCount": 1,
-      "lastAccessed": 1778051191282,
-      "type": "file"
-    },
-    {
-      "path": "tj-auth\\tj-auth-gateway-sdk\\src\\main\\java\\com\\tianji\\authsdk\\gateway\\util\\JwtSignerHolder.java",
-      "accessCount": 1,
-      "lastAccessed": 1778051191334,
-      "type": "file"
-    },
-    {
-      "path": "tj-auth\\tj-auth-service\\src\\main\\resources\\bootstrap-dev.yml",
-      "accessCount": 1,
-      "lastAccessed": 1778051265876,
-      "type": "file"
-    },
-    {
-      "path": "tj-auth\\tj-auth-service\\src\\main\\resources\\bootstrap.yml",
-      "accessCount": 1,
-      "lastAccessed": 1778051265932,
-      "type": "file"
-    },
-    {
-      "path": "tj-gateway\\src\\main\\resources\\bootstrap-dev.yml",
-      "accessCount": 1,
-      "lastAccessed": 1778051308249,
-      "type": "file"
-    },
-    {
-      "path": "tj-admin\\src\\pages\\login\\components\\LoginPass.vue",
-      "accessCount": 1,
-      "lastAccessed": 1778052600150,
-      "type": "file"
-    },
-    {
-      "path": "tj-auth\\tj-auth-service\\src\\main\\java\\com\\tianji\\auth\\controller\\AccountController.java",
-      "accessCount": 1,
-      "lastAccessed": 1778053009759,
+      "lastAccessed": 1779088102629,
       "type": "directory"
     },
     {
-      "path": "tj-admin\\src\\api\\user.js",
+      "path": "tj-portal\\src\\utils\\request.js",
       "accessCount": 1,
-      "lastAccessed": 1778053019702,
+      "lastAccessed": 1779088110883,
       "type": "file"
     },
     {
-      "path": "tj-admin\\src\\config\\proxy.js",
+      "path": "tj-portal\\vite.config.js",
       "accessCount": 1,
-      "lastAccessed": 1778142504507,
+      "lastAccessed": 1779088117022,
       "type": "file"
-    },
-    {
-      "path": "tj-admin",
-      "accessCount": 1,
-      "lastAccessed": 1778142504581,
-      "type": "directory"
     }
   ],
   "userDirectives": []
